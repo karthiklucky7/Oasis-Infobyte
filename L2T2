@@ -1,0 +1,95 @@
+TRIBUTE PAGE :
+
+
+HTML Code :
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Tribute Page</title>
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">Nandamuri Taraka Rama Rao</h1>
+        <p>Our country lost a legendary Indian actor and politician on 18 January 1996 </p>
+        <div id="img_div">
+            <img src="NT Rama Rao.jpg" alt="" id="image">
+            <figcaption> NTR, was an Indian actor, filmmaker and politician who served as Chief Minister of Andhra Pradesh for seven years over three terms.</figcaption>
+        </div>
+        <div id="tribute-info">
+            <h3>Here's a time line of Nandamuri Taraka Rama Rao</h3>
+            <ul>
+                <li>
+                    Nandamuri Taraka Rama Rao was born to a Hindu family on 28 May 1923 in Nimmakuru, a small village in Gudivada taluk of Krishna district, which was a part of the erstwhile Madras Presidency of British India. 
+                </li>
+                <li>He was first educated by a teacher who came from a nearby village, whom he would attribute his command of Telugu to, as well as his father, an aspiring thespian and patron of the arts.</li>
+                <li>Although children were normally pulled out of school after completing their primary education, on account of being the first male child in the family, his father sent him to Vijayawada, where he continued his education, matriculating in 1940 before studying at SRR & CVR College and at the Andhra Christian College in Guntur.</li>
+                <li>In 1947, he joined the Madras Service Commission as a sub-registrar at Prathipadu of Guntur district, a much-coveted job that he nevertheless quit within three weeks to devote himself to acting.[28] He developed a baritone singing voice as a young man</li>
+                <li>Rama Rao started his film career with a walk-on role as a policeman in Mana Desam (1949)</li>
+                <li>Following this, he appeared in Palletoori Pilla (1950), directed by B. A. Subba Rao.[29] His first mythological film was in 1957, where he portrayed the Hindu god Krishna in the blockbuster film Maya Bazaar.[30] He played Krishna in 17 films,[30] including some landmark films such as Sri Krishnarjuna Yudham (1962), the Tamil film Karnan (1964) and Daana Veera Soora Karna (1977). He was also known for his portrayal of the god Rama, essaying that role in films such as Lava Kusa (1963) and Sri Ramanjaneya Yuddham (1974) to name a few. He has also portrayed other characters from the Ramayana, such as Ravana in Bhookailas (1958) and Seetharama Kalyanam (1961) among others. He portrayed the god Vishnu in films such as Sri Venkateswara Mahatyam (1960) among others and the god Shiva in Dakshayagnam (1962). He has also enacted the roles of Mahabharata characters, such as Bheeshma, Arjuna, Karna and Duryodhana.</li>
+                <li>Naadendla Bhaskara Rao,a veteran politician joined Telugu Desam Party (TDP) founded by Rama Rao, on 29 March 1982 in Hyderabad. He said that this decision was based on a historic need to rid Andhra Pradesh of the corrupt and inept rule of the Indian National Congress, which had governed the state since its formation in 1956 and whose leadership had changed the Chief Minister five times in five years</li>
+                <li>In May 1943, at the age of 20, while still pursuing his Intermediate, Rao married Basava Rama Tarakam, the daughter of his maternal uncle. The couple had eight sons and four daughters.</li>
+                <li>He won Padma Shri,Honorary Doctorate,Best Actor-Telugu,Best Story Writer awards.</li>
+                <li>His life and acting career, and later life and political career, are showcased in the films N.T.R: Kathanayakudu and N.T.R: Mahanayakudu, respectively, with his son Nandamuri Balakrishna playing the title character.[70] His later life after his wife Nandamuri Basavatarakam's death and his marriage to Lakshmi Parvathi is showcased in Ram Gopal Varma's film Lakshmi's NTR with P. Vijay Kumar playing his role.</li>
+            </ul>  
+        </div>
+        <h5> NT Rama Rao died of a heart attack on 18 January 1996 at his residence in Hyderabad, aged 72.[71] He was cremated and his ashes were immersed at Srirangapatna by his second wife Lakshmi Parvathi, eight years later, in May 2004.</h5>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+CSS Code :
+
+
+
+#main{
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding:15px;
+    background: #dddddd;
+    border-radius: 5px;
+}
+#title{
+    text-align: center;
+}
+#main > p{
+    text-align: center;
+}
+#img_div{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+    align-items: center;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+#tribute-info{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#tribute-info > h3{
+    text-align: center;
+}
+#tribute-info > ul li{
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+h5{
+text-align: center;
+}
